@@ -3756,3 +3756,44 @@ div#maintoolbar {
 #header-container {
   display: none !important;
 }
+/* Styling the container for social links */
+.custom-profile-social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: 'Arial', sans-serif; /* Sets the font family for all links */
+}
+
+/* Styling for each individual social link */
+.custom-profile-social-links .social-link {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.custom-profile-social-links a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+/* Optional: Custom icon styling */
+.custom-profile-social-links a i {
+  font-size: 18px;
+  color: inherit;
+}
+
+/* Hover effect for text and icon */
+.custom-profile-social-links a:hover {
+  color: #1a73e8;
+}
+
+.custom-profile-social-links a:hover i {
+  color: inherit;
+}

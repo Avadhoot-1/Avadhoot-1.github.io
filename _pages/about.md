@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+
+# news: true # includes a list of news items
+# selected_papers: true # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey there! I’m Avadhoot. Currently, I am in my final year, pursuing a B.Tech degree in the Department of [Computer Science and Engineering](https://www.cse.iitb.ac.in/) at IIT Bombay. I have completed a minor in department of [Centre for Machine Intelligence and Data Science](https://www.minds.iitb.ac.in/). My primary interest lies in AI and machine learning, with a special fascination for computer vision and Natural Language Processing.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m originally from Varvand, a small village in Pune district, where I completed my education up to the 10th grade before moving to Baramati for JEE preparation. Recently, I completed an internship at Adobe Inc. in the Media and Data Science Research (MDSR) lab, where I worked on various computer vision topics, including image editing, diffusion models, and multimodal vision-language models (VLMs).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+ Outside of work and studies, you can find me watching cricket, scrolling through reels, or relaxing with some good Marathi and Hindi music.

@@ -32,6 +32,29 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+        <div class="custom-profile-social-links">
+            <div class="social-link">
+            <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i> Email</a>
+            </div>
+          <div class="social-link">
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn" target="_blank">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+          <!-- Google Scholar Link -->
+          <div class="social-link">
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar" target="_blank">
+              <i class="ai ai-google-scholar"></i> Google Scholar
+            </a>
+          </div>
+          <div class="social-link">
+          <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i> Github </a>
+          </div>
+          <div class="social-link">
+          <a href="https://instagram.com/{{ site.instagram_id }}" title="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          </div>
+        </div>
+
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}

@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Avadhoot-1
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Avadhoot-1/Exemplar-Based-Image-Editing
+  - Avadhoot-1/Image-Captioning
+  - Avadhoot-1/Detecting-Depression-through-Tweets
+  - Atishay25/tones2notes
+  - Atishay25/Python-Combat
+  - Avadhoot-1/Image-Deblurring
+
