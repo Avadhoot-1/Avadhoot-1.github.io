@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /repositories/
 title: repositories
@@ -29,7 +29,7 @@ nav_order: 2
   {% include repository/repo_trophies.liquid username=user %}
   </div> -->
 
----
+<!-- ---
 
 {% endfor %}
 {% endif %}
@@ -44,4 +44,4 @@ nav_order: 2
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}
 </div>
-{% endif %}
+{% endif %} --> -->
